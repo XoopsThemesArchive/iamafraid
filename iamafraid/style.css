@@ -1,0 +1,163 @@
+body {color: #2A3361;margin: 5px; padding: 0px;background-color:#B2BBEA;
+}
+body td, p, div {font-family: verdana, arial, helvetica; font-size: 11px;color: #2A3361;}
+
+table {width: 100%; margin: 0px; padding: 0px;  }
+table td {padding: 0px; border-width: 0px; vertical-align: top; font-family: Verdana, Arial, Helvetica, sans-serif;  }
+
+a:link    {color: #2A3361; text-decoration: none}
+a:active {color: #2A3361; text-decoration: none}
+a:visited {color: #2A3361; text-decoration: none}
+a:hover  {color: #2A3361; text-decoration: underline}
+
+input { background-color: #B2BBEA; 
+border-color: #CBCBCB; 
+color: #2A3361; 
+font-family: verdana,  arial, ms sans serif;  
+font-size: 10pt;}
+td#logo {
+	background-image: url(images/logo.jpg);
+	background-repeat: no-repeat;
+	width:750px;
+	height:487px;
+	
+}
+td#footer {
+	background-image: url(images/footer.jpg);
+	background-repeat: no-repeat;
+	width:750px;
+	height:254px;
+
+}
+div#container {
+   width:750px;
+	background-image: url(images/bg.gif);
+}
+fieldset {
+	border: 0px solid #000;
+}
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+ul { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; list-style: square inside; color: #2A3361;
+}
+.item {color:#2A3361;}
+.itemHead {padding:3px;   color: #000000;   text-align: right; font-variant: small-caps;  letter-spacing: 5px;  border-bottom: 1px solid #8790BF;}
+.itemInfo {text-align: center;  }
+.itemTitle a {font-weight: bold;  background-color: transparent;  text-align: center;  }
+.itemPoster {font-size: 90%; }
+.itemPostDate {font-size: 90%;}
+.itemStats {font-size: 90%;}
+.itemBody { }
+.itemText {margin-top: 0px; margin-bottom: 0px; line-height: 1.5em; }
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemFoot {text-align: left; padding:3px;  }
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%; font-style:italic;}
+
+
+th { padding : 2px; vertical-align : middle; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+td#leftcolumn {width: 150px; font-size:12px;  padding: 0px 0px 0px 0px;      }
+td#leftcolumn th {color: #000000; vertical-align: middle;}
+td#leftcolumn .blockTitle {padding: 0px 5px 5px 5px; color: #000000; font-weight:bold;  text-align: center;    font-variant: small-caps;  letter-spacing: 5px;  border-bottom: 1px solid #8790BF;    width: 145px; }
+td#leftcolumn .blockContent {padding: 3px;  line-height: 120%;margin-bottom:8px; overflow:hidden; border:0px;  color:#2A3361; width: 150px;line-height: 1.5em;}
+
+td#centercolumn {font-size: 10px;  border : 0px none;  padding : 0px 6px;  padding-left : 6px;    }
+
+td#centercolumn th {  vertical-align: middle; }
+td#centerCcolumn {padding: 0px 6px 1px 6px;   padding-top : 0px;  }
+td#centerCcolumn .blockTitle {padding: 0px; color: #000000; font-weight:bold; margin-top: 0px; margin-right: 0px;  margin-left: 0px;font-variant: small-caps;  letter-spacing: 5px;  border-bottom: 1px solid #8790BF; text-align: right; }
+td#centerCcolumn div.blockContent {padding: 0px; margin-right: 0px;  margin-left: 0px; margin-bottom: 0px;text-align: left;line-height: 1.5em;}
+
+td#centerLcolumn {width: 50%; padding: 3px 3px 3px 6px; }
+td#centerLcolumn .blockTitle {padding: 0px; color: #000000; font-weight: bold; margin-top:0px;font-variant: small-caps;  letter-spacing: 5px;  border-bottom: 1px solid #8790BF; }
+td#centerLcolumn div.blockContent {padding: 3px; text-align: left;line-height: 1.5em;}
+
+td#centerRcolumn {width: 50%; padding: 3px 3px 3px 3px;}
+td#centerRcolumn .blockTitle {padding: 0px; color: #000000; font-weight: bold; margin-top: 0px;font-variant: small-caps;  letter-spacing: 5px;  border-bottom: 1px solid #8790BF; }
+td#centerRcolumn div.blockContent {padding: 3px;   text-align: left; line-height: 1.5em; }
+
+div#content { text-align: left; padding: 10px 8px 1px 12px;  }
+div#content input { background-color: #B2BBEA; 
+border-color: #CBCBCB; 
+color: #2A3361;
+font-family: verdana,  arial, ms sans serif;  
+font-size: 10pt;
+
+}
+
+div#content textarea {
+	
+}
+td#rightcolumn {width: 150px; font-size:12px;  padding: 0px 0px 0px 0px;      }
+td#rightcolumn th {color: #000000; vertical-align: middle;}
+td#rightcolumn .blockTitle {padding: 0px 5px 5px 5px; color: #000000; font-weight:bold;  text-align: center;    font-variant: small-caps;  letter-spacing: 5px;  border-bottom: 1px solid #8790BF;    width: 145px; }
+td#rightcolumn .blockContent {padding: 3px;  line-height: 120%;margin-bottom:8px; overflow:hidden; border:0px;  color: #2A3361; width: 150px;}
+
+
+td#mainmenu a {display: block; margin: 0; padding: 4px;}
+td#mainmenu a:hover {}
+td#mainmenu a.menuTop {padding-left: 3px;}
+td#mainmenu a.menuMain {padding-left: 3px;}
+td#mainmenu a.menuSub {padding-left: 9px; }
+
+td#usermenu a {display: block; margin: 0; padding: 4px;}
+td#usermenu a:hover { }
+td#usermenu a.menuTop {}
+
+
+
+.outer {border: 1px solid #2A3361;}
+.head { padding: 5px; font-weight: bold;  background : none; border: 1px solid #2A3361;}
+.even {padding: 5px;  border: 1px solid #2A3361; }
+.odd { padding: 5px;border: 1px solid #2A3361;}
+.foot {padding: 3px; font-weight: bold; border: 1px solid#2A3361;}
+tr.even td {padding: 5px;}
+tr.odd td { padding: 5px;}
+
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+
+div.xoopsCode { background: #F5F1E6; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+div.xoopsQuote { background: #F5F1E6; font-family: Verdana, Arial, Helvetica, sans-serif; color: #8E292D; padding: 0px 6px 6px 6px;}
+
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #2A3361; font-weight:bold; border: 1px solid #2A3361; background-color: #B2BBEA; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #2A3361; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+/* Used mainly for Shoutbox module*/
+.sideboxcontent{
+	color: #2A3361;
+	font-size: 10px;
+}
+.sideboxcontent  a:link {
+	color: #2A3361;
+	font-size: 10px;
+}
+.sideboxcontent  a:active {
+	color: #2A3361;
+	font-size: 10px;
+}
+.sideboxcontent  a:hover {
+	color: #2A3361;
+	font-size: 10px;
+}
+.sideboxcontent  a:visited {
+	color: #2A3361;
+	font-size: 10px;
+}
